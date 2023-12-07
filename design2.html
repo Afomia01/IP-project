@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Tour Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: #3498db;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 1em;
+        }
+
+        .place {
+            flex: 0 0 30%;
+            margin: 1em;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .place:hover {
+            transform: scale(1.05);
+        }
+
+        .place img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .place h2 {
+            text-align: center;
+            margin: 10px 0;
+        }
+
+        .place p {
+            text-align: center;
+            padding: 0 10px;
+        }
+
+        .booking {
+            text-align: center;
+            padding: 1em;
+        }
+
+        .book-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .book-button:hover {
+            background-color: #2980b9;
+        }
+
+        /* Remove underline from anchor tags */
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Your Tour Website</h1>
+    </header>
+
+    <section>
+        <div class="place">
+            <a href="place1.html">
+                <img src="place1.jpg" alt="Place 1">
+                <h2>Place 1</h2>
+                <p>Description about Place 1.</p>
+            </a>
+        </div>
+
+        <div class="place">
+            <a href="place2.html">
+                <img src="place2.jpg" alt="Place 2">
+                <h2>Place 2</h2>
+                <p>Description about Place 2.</p>
+            </a>
+        </div>
+        <div class="place">
+            <a href="place3.html">
+                <img src="place1.jpg" alt="Place 1">
+                <h2>Place 3</h2>
+                <p>Description about Place 3.</p>
+            </a>
+        </div>
+        <div class="place">
+            <a href="place1.html">
+                <img src="place1.jpg" alt="Place 1">
+                <h2>Place 4</h2>
+                <p>Description about Place 4.</p>
+            </a>
+        </div>
+
+        <!-- Repeat the above block for other places with corresponding links -->
+
+    </section>
+
+    <div class="booking">
+        <h2>Book Your Tour</h2>
+        <p>Reserve your spot now! Contact us at info@yourtourwebsite.com</p>
+        <a class="book-button" href="booking_page.html">Book Now</a>
+    </div>
+
+</body>
+
+</html>
