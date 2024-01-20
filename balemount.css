@@ -1,8 +1,9 @@
-body, h1, h2, p, ul, li {
-    margin: 0;
-    padding: 0;
-  }
-  
+nav {
+    background-color: #0e0700;
+    padding: 10px;
+    text-align: center;
+}
+
 nav a {
     color: #fff;
     text-decoration: none;
@@ -11,7 +12,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #031529;
+    background-color: #ecf1f7;
     border-radius: 5px;
 }
 body {
@@ -22,15 +23,15 @@ body {
 }
 
 header {
-    background-color: #272625;
-    color: #fff;
+    background-color: #ffffff;
+    color: #1a0202;
     text-align: center;
     padding: 20px;
 }
 
 h1 {
     margin: 0;
-    color: rgb(241, 241, 238);
+    color: rgb(12, 12, 1);
 }
 
 section {
@@ -52,12 +53,13 @@ p {
 img {
     max-width: 100%;
     height: auto;
-    border-radius: 5px;
+    border-radius: 30px;
 }
 .container {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    
 }
 
 ul {
@@ -86,4 +88,12 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+#button{
+    background-color: orange;
+    text-align: center;
+    
+}
+button a:hover{
+     background-color: white;
 }
