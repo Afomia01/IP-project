@@ -1,9 +1,8 @@
-nav {
-    background-color: #ec8208;
-    padding: 10px;
-    text-align: center;
-}
-
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
 nav a {
     color: #fff;
     text-decoration: none;
