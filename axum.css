@@ -88,10 +88,13 @@ section {
 
 active {
     background-color: #f1f1f1;
-    color: white;
+    color: rgb(235, 165, 165);
   }
 img{
     width: 300px; height: 200px; 
     object-fit: cover;
      border-radius: 5px;
 }
+
+
+

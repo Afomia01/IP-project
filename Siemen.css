@@ -35,6 +35,9 @@ article {
 figure {
     text-align: center;
 }
+.active{
+    border:2px solid rgb(243, 217, 217);
+}
 
 footer {
     background-color: #333;

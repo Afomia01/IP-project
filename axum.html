@@ -6,13 +6,35 @@
     <link rel="icon" href=" images\aksum.png" type="image/x-icon">
     <title>Axum</title>
     <link rel="stylesheet" href="axum.css">
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function () {
+
+
+        function changeHeaderColor() {
+            const header = document.querySelector('header');
+            header.style.backgroundColor = 'lightblue';
+        }
+    
+        function resetHeaderColor() {
+            const header = document.querySelector('header');
+            header.style.backgroundColor = '';
+        }
+    
+        const header = document.querySelector('header');
+        header.addEventListener('mouseover', changeHeaderColor);
+        header.addEventListener('mouseout', resetHeaderColor);
+        });
+        </script>
 </head>
+
+
 <body>
     <header>
         <h1>Axum Obelisks</h1>
         <nav id="topnav">
             <ul class="active">
-                <li><a href="index1.html">HOME</a></li>
+                <li><a href="index.html">HOME</a></li>
                 <li><a href="#ataglance">At a Glance</a></li>
                 <li><a href="#obelisks">Obelisks</a></li>
                 <li><a href="#italianoccupation">Italian Occupation</a></li>
@@ -34,7 +56,7 @@
       
     <section id="obelisks">
         <h2 align="center"> The Obelisks of Axum</h2><br>
-     <figure>
+     <figure class="toggle-hover">
         <img src="images\axum_image\Axum_obelisk.jpg" alt="Axum Obelisk image" >
         <img  src="images\axum_image\Obelisks.jpg" alt="Axum Obelisk image" >
         <figcaption><h5>Towering stelaes in Axum</h5></figcaption>
