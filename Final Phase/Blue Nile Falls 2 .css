@@ -1,0 +1,148 @@
+/* styles.css */
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #8fa7f6;
+}
+
+header {
+    background-color: #385de3;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+header img {
+    width: 200%;
+    height: auto;
+    display: block;
+}
+
+
+h1 {
+    text-align: center;
+    color: #3c3b42;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+section {
+    padding: 20px;
+}
+h2, h3, h4 {
+    color: #007bff;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+p, .first_paragraph, .House_paragraph, .house_paragraph {
+    color: #555;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+figure {
+    margin: 20px auto;
+    text-align: center;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+figure img:hover {
+    transform: scale(1.05);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+}
+
+h2 {
+    color: #009688;
+    font-size: 24px;
+    margin-top: 40px;
+}
+
+h3, h4 {
+    color: #007bff;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+h4 {
+    color: #007bff;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#Nile_Falls, #stone_Bridge {
+    margin-top: 30px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 100px;
+    color: #777;
+    font-size: 14px;
+}
+footer {
+    background-color: #1f2026;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* styles.css */
+
+
+
+/* Add this style for footer navigation */
+.footer-navigation {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: center;
+    padding: 10px 0; /* Add padding for spacing */
+}
+
+.footer-navigation li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-navigation li:last-child {
+    margin-right: 0;
+}
+
+.footer-navigation a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+    padding: 5px 10px; /* Add padding for spacing */
+    border: 1px solid transparent; /* Add border to each link */
+    border-radius: 5px; /* Add border radius for rounded corners */
+}
+
+.footer-navigation a:hover {
+    color: #1f2021; /* Change color on hover */
+    background-color: #f0f0f0; /* Change background color on hover */
+    border-color: #1c1d1d; /* Change border color on hover */
+}
