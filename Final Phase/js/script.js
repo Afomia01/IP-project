@@ -1,0 +1,54 @@
+// Selecting elements
+let formBtn = document.querySelector('#login-btn');
+let loginForm = document.querySelector('.login-form-container');
+let formClose = document.querySelector('#form-close');
+let menu = document.querySelector('#menu-bar');
+let navbar = document.querySelector('.navbar');
+
+// Event listeners
+window.addEventListener('scroll', () => {
+    menu.classList.remove('fa-times');
+    navbar.classList.remove('active');
+    loginForm.classList.remove('active');
+});
+
+menu.addEventListener('click', () => {
+    menu.classList.toggle('fa-times');
+    navbar.classList.toggle('active');
+});
+
+formBtn.addEventListener('click', () => {
+    loginForm.classList.add('active');
+});
+
+formClose.addEventListener('click', () => {
+    loginForm.classList.remove('active');
+});
+
+/*let formBtn= document.querySelector('#login-btn');
+let loginForm = document.querySelector('.login-form-container');
+let formClose = document.querySelector('#form-close');
+let menu= document.querySelector('#menu-bar');
+let navbar= document.querySelector('.navbar');
+
+window.scroll =() =>{
+ menu.classList.remove('fa-times');
+ navbar.classList.remove('active');
+ loginForm.classList.remove('active');   
+}
+
+
+
+menu.add('click',() =>{
+    menu.classList.toggle('fa-times');
+    navbar.classList.toggle('active');
+})
+
+
+
+formBtn.addEventListener('click', () =>{
+    loginForm.classList.add('active');
+});
+formClose.addEventListener('click', () =>{
+    loginForm.classList.remove('active');
+});*/
