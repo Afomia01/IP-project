@@ -15,3 +15,5 @@ Alazar Gebre         ETS0132/14
 -------------------------------------------------
 Alem Ayalew          ETS0142/14
 -------------------------------------------------
+Decription- This repository contain source code for a tour and travel website called VENTURE ETHIOPIA. For the final version go to the FINAL PHASE folder.
+Snake Game is also included in the repository. Go to the folder SNAKE GAME for the source code.
