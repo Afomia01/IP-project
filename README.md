@@ -1,25 +1,25 @@
-Venture Ethiopia: Tour and Travel Website
-Description
+# Venture Ethiopia: Tour and Travel Website
+## Description
 Venture Ethiopia is a responsive and intuitive web platform designed to promote Ethiopian tourism. The site showcases over 100+ tourist destinations, providing detailed information to travelers while boosting visibility for lesser-known attractions. The platform is built with performance and scalability in mind, aiming to drive an increase in national tourism by offering a seamless and informative user experience.
 
-Key Features
+- Key Features
 100+ Tourist Destinations: Explore diverse travel spots across Ethiopia, from historical landmarks to natural wonders.
 Fast Loading Times: Optimized for a smooth browsing experience with load times under 2 seconds, enhancing user satisfaction.
 Modern UI/UX: Designed with simplicity and ease of navigation, ensuring a user-friendly experience for tourists and travel agencies alike.
 Scalable Architecture: Built with clean and modular architecture to ensure future scalability and ease of maintenance.
 Technologies Used
-Frontend:
-JavaScript
-React
-Backend:
-SQL
-Node.js
-Design:
-Figma
-Version Control & Collaboration:
-Git
-GitHub
-Getting Started
+# Frontend:
+- JavaScript
+- React
+- Backend:
+# SQL
+- Node.js
+# Design:
+- Figma
+# Version Control & Collaboration:
+- Git
+- GitHub
+# Getting Started
 To get started with this project, follow the steps below:
 
 1. Clone the Repository
