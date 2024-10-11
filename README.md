@@ -11,14 +11,13 @@ Technologies Used
 # Frontend:
 - JavaScript
 - React
-- Backend:
-# SQL
-- Node.js
+  
 # Design:
 - Figma
 # Version Control & Collaboration:
 - Git
 - GitHub
+  
 # Getting Started
 To get started with this project, follow the steps below:
 
